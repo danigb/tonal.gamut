@@ -8,11 +8,11 @@
 [![tonal](https://img.shields.io/badge/tonal-lib-yellow.svg)](https://www.npmjs.com/package/tonal)
 
 
-`tonal.gamut` is a collection of javascript functions to manipulate notes and intervals in an uniform way:
+`tonal.gamut` is a collection of javascript functions to work with collections of notes or intervals:
 
 ```js
 var gamut = require('tonal.gamut')
-gamut('a b c blah 5P') // => ['A', 'B', 'C', null, '5P']
+gamut('a fx c2 blah 5') // => ['A', 'F##', 'C2', null, '5P']
 ```
 
 This is a low level library part of [tonal](https://www.npmjs.com/package/tonal). This library is the foundation of [tonal.set](), [tonal.scale]() and [tonal.chord]()

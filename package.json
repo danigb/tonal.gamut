@@ -1,6 +1,6 @@
 {
   "name": "tonal.gamut",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "private": "true",
   "description": "Work with collection of notes or intervals",
   "main": "lib/index.js",
