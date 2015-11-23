@@ -1,0 +1,31 @@
+{
+  "name": "tonal.gamut",
+  "version": "0.0.1",
+  "description": "The javascript music notation",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "cp ../README.md ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danigb/tonal.gamut.git"
+  },
+  "keywords": [
+    "music",
+    "theory",
+    "gamut",
+    "notes",
+    "intervals",
+    "tonal"
+  ],
+  "author": "danigb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danigb/tonal.gamut/issues"
+  },
+  "homepage": "https://github.com/danigb/tonal.gamut#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
