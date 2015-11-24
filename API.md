@@ -3,9 +3,18 @@
 In music.kit a gamut is a collection of intervals, pitch classes or notes.
 Scales, chords, pitch sets are examples of gamuts.
 
+### Parameters
+
+* `source` **`String or Array`** a list of elements
 
 
+### Examples
 
+```js
+gamut('c2 bb fx blah') // => ['C2', 'Bb', 'F##', null]
+```
+
+Returns `Array` a list of pitches
 
 
 ## `gamut.chord`

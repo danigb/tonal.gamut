@@ -8,7 +8,7 @@
 [![tonal](https://img.shields.io/badge/tonal-lib-yellow.svg)](https://www.npmjs.com/package/tonal)
 
 
-`tonal.gamut` is a collection of javascript functions to work with collections of notes or intervals:
+`tonal.gamut` is a [compact](https://rawgit.com/danigb/tonal.gamut/master/dist/disc.html) collection of javascript functions to work with collections of notes or intervals:
 
 ```js
 var gamut = require('tonal.gamut')
@@ -21,7 +21,7 @@ This is part of [tonal](https://www.npmjs.com/package/tonal)
 
 ## Install
 
-Via npm: `npm i --save tonal.gamut` or use the [distribution file] (exports `gamut` as window global):
+Via npm: `npm i --save tonal.gamut` or use the [distribution file](https://raw.githubusercontent.com/danigb/tonal.gamut/master/dist/tonal.gamut.min.js) (exports `gamut` as window global):
 
 ```html
 <script src="tonal.gamut.min.js"></script>
@@ -113,6 +113,9 @@ The `gamut.sort` function sorts a gamut using an ascending pitch order:
 kit.gamut.sort('F G D A C') // => ['C', 'D', 'F', 'G', 'A']
 ```
 
+#### More...
+
+Read the [generated documentation]()
 
 ## License
 
