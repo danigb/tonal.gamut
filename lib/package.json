@@ -1,10 +1,9 @@
 {
   "name": "tonal.gamut",
-  "version": "0.0.1",
-  "description": "The javascript music notation",
+  "version": "0.0.3",
+  "description": "Work with collection of notes or intervals",
   "main": "index.js",
   "scripts": {
-    "prepublish": "cp ../README.md ."
   },
   "repository": {
     "type": "git",
@@ -24,8 +23,9 @@
     "url": "https://github.com/danigb/tonal.gamut/issues"
   },
   "homepage": "https://github.com/danigb/tonal.gamut#readme",
-  "devDependencies": {
-  },
   "dependencies": {
+    "tonal.distance": "file:../../distance",
+    "tonal.notation": "file:../../notation/lib",
+    "tonal.pitch": "file:../../pitch/lib"
   }
 }
