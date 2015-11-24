@@ -1,7 +1,7 @@
 {
   "name": "tonal.gamut",
-  "version": "0.0.3",
-  "description": "Work with collection of notes or intervals",
+  "version": "0.0.4",
+  "description": "Create musical gamuts (pitch sets, scales, chords)",
   "main": "index.js",
   "scripts": {
   },
@@ -14,7 +14,9 @@
     "theory",
     "gamut",
     "notes",
-    "intervals",
+    "set",
+    "scale",
+    "chord",
     "tonal"
   ],
   "author": "danigb",
@@ -24,8 +26,8 @@
   },
   "homepage": "https://github.com/danigb/tonal.gamut#readme",
   "dependencies": {
-    "tonal.distance": "file:../../distance",
-    "tonal.notation": "file:../../notation/lib",
-    "tonal.pitch": "file:../../pitch/lib"
+    "tonal.distance": "0.0.1",
+    "tonal.pitch": "0.0.4",
+    "tonal.transpose": "0.0.1"
   }
 }

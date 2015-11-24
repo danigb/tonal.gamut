@@ -2,7 +2,7 @@
   "name": "tonal.gamut-tools",
   "version": "0.0.0",
   "private": "true",
-  "description": "Work with collection of notes or intervals",
+  "description": "tonal.gamut support",
   "main": "lib/index.js",
   "scripts": {
     "build": "cp README.md lib/ && npm test && npm run docs && npm run coverage && npm run disc && npm run dist",
@@ -20,10 +20,6 @@
     "url": "git+https://github.com/danigb/tonal.gamut.git"
   },
   "keywords": [
-    "music",
-    "gamut",
-    "notes",
-    "tonal"
   ],
   "author": "danigb",
   "license": "MIT",
@@ -35,8 +31,8 @@
     "vows": "^0.8.x"
   },
   "dependencies": {
-    "tonal.distance": "file:../distance",
-    "tonal.notation": "file:../notation/lib",
-    "tonal.pitch": "file:../pitch/lib"
+    "tonal.distance": "0.0.1",
+    "tonal.pitch": "0.0.4",
+    "tonal.transpose": "0.0.1"
   }
 }

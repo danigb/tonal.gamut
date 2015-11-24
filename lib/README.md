@@ -12,14 +12,21 @@
 
 ```js
 var gamut = require('tonal.gamut')
-gamut('a fx c2 blah 5') // => ['A', 'F##', 'C2', null, '5P']
+gamut.set('c2 e6 g2 b') // => ['C', 'E', 'G', 'B']
+var maj7 = gamut.chord('1 3 5 7')
+maj7('A2') // => ['A2', 'C#3', 'E3', 'G#3']
 ```
 
-This is a low level library part of [tonal](https://www.npmjs.com/package/tonal). This library is the foundation of [tonal.set](), [tonal.scale]() and [tonal.chord]()
+This is part of [tonal](https://www.npmjs.com/package/tonal)
 
 ## Install
 
-Only via npm: `npm i --save tonal.gamut`
+Via npm: `npm i --save tonal.gamut` or use the [distribution file] (exports `gamut` as window global):
+
+```html
+<script src="tonal.gamut.min.js"></script>
+<script>console.log(gamut.scale('1 2 3 4 5 6 7'), 'Eb')</script>
+```
 
 ## User guide
 
